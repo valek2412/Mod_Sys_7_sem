@@ -10,7 +10,7 @@ const func2 = (alpha, sigma) => {
 };
 
 const func3Closure = () => {
-  let z = 1;
+  let z = Math.random();
   return (a, c) => {
     z = a * z % c;
     return z / c;
